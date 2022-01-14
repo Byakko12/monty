@@ -127,4 +127,3 @@ void division(stack_t **stack, unsigned int line_number)
 	temp->next->n = temp->next->n / temp->n;
 	pop(stack, line_number);
 }
-
